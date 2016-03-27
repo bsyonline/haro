@@ -25,6 +25,14 @@
         <redis-vesion>2.7.3</redis-vesion>
         <elasticsearch-version>2.2.1</elasticsearch-version>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit-version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
