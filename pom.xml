@@ -11,6 +11,7 @@
     <modules>
         <module>haro-hadoop</module>
         <module>haro-hbase</module>
+        <module>haro-scala</module>
     </modules>
     <properties>
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
@@ -24,6 +25,9 @@
         <junit-version>4.11</junit-version>
         <redis-vesion>2.7.3</redis-vesion>
         <elasticsearch-version>2.2.1</elasticsearch-version>
+        <scala.version>2.11.1</scala.version>
+        <slf4j.version>1.7.7</slf4j.version>
+        <scala.maven.version>2.11.1</scala.maven.version>
     </properties>
     <dependencies>
         <dependency>
