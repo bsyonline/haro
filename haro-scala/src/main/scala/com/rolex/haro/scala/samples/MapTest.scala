@@ -9,7 +9,7 @@ package com.rolex.haro.scala.samples
 object MapTest {
 
     def main(args: Array[String]) {
-        //val 声明为常量， var 声明为变量
+        // val 声明为常量， var 声明为变量
         val map = Map(1 -> "scala", 2 -> "java")
 
         for ((k, v) <- map) {
