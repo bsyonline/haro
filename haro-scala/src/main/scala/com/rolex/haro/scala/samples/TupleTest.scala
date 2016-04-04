@@ -13,5 +13,13 @@ object TupleTest {
 
         print(tuple4._2)
     }
+
+    // 元组中包含不同类型的数据
+    val tuple = (1,2,3,"java","scala")
+
+    // 元组可反向赋值
+    val (one, two, three, four, _) = tuple
+
+    println("Java SDK".partition(_.isUpper))
     
 }
