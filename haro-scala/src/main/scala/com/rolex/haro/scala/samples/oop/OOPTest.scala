@@ -16,6 +16,9 @@ object OOPTest {
         // 实际调用的是def gender()
         println(person.gender)
 
+        var cat = new Cat("",10)
+
+
     }
 
 }
