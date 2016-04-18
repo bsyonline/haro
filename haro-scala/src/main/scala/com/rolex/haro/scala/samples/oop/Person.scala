@@ -1,7 +1,8 @@
 package com.rolex.haro.scala.samples.oop
 
 /**
-  * Created with IntelliJ IDEA.
+  * 声明变量，常量
+  *
   * User: rolex
   * Date: 2016/4/4
   * version: 1.0
@@ -32,5 +33,14 @@ class Person {
     /*def isEquals(other: Person): Boolean = {
         birthDay.equals(other.birthDay)
     }*/
+
+}
+object PersonTest {
+
+    def main(args: Array[String]) {
+        val person = new Person()
+        person.add()
+        println(person.getAge())
+    }
 
 }
