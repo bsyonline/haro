@@ -1,7 +1,8 @@
 package com.rolex.haro.scala.samples.oop
 
 /**
-  * Created with IntelliJ IDEA.
+  * 构造器
+  *
   * User: rolex
   * Date: 2016/4/8
   * version: 1.0
@@ -23,6 +24,13 @@ class Cat private(var age: Int) {// var 或 val 修饰的变量会声明为成�
 
     def this(name: String, age: Int) {
         this(10)
-        print("overload constructor")
+        println("overload constructor")
     }
+}
+object CatTest {
+
+    def main(args: Array[String]) {
+        var cat = new Cat("",10)
+    }
+
 }
