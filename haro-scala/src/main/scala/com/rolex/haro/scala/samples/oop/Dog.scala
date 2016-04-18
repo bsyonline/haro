@@ -1,7 +1,8 @@
 package com.rolex.haro.scala.samples.oop
 
 /**
-  * Created with IntelliJ IDEA.
+  * 伴生类和伴生对象
+  *
   * User: rolex
   * Date: 2016/4/18
   * version: 1.0
