@@ -30,5 +30,6 @@ object ApplyTest {
         b() // 调用伴生类中的apply
         b.foo
 
+        val arr = Array(1,2,3,4) // 调用Array object的apply
     }
 }
