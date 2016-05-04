@@ -2,6 +2,4 @@
 *.ipr
 *.iws
 .idea/
-target/
-haro-hadoop/target/
-haro-hbase/target/
+**/target/
