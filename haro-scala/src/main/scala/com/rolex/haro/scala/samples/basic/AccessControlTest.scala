@@ -32,7 +32,7 @@ package p{
 }
 
 package bobsrocckets{
-    package navigation{
+    /*package navigation{
         private[bobsrockets] class Navigator{
             // private[xxx] 表示xxx包内可见,对xxx包以外私有
             protected[navigation] def useStarChart(){}
@@ -47,5 +47,5 @@ package bobsrocckets{
         object Vehicle{
             private[launch] val guide = new Navigator
         }
-    }
+    }*/
 }
