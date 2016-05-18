@@ -1,4 +1,4 @@
-package com.rolex.haro.scala.samples
+package com.rolex.haro.scala.samples.basic
 
 import scala.collection.mutable.ArrayBuffer
 
@@ -8,6 +8,8 @@ import scala.collection.mutable.ArrayBuffer
   * Date: 2016/3/29
   * version: 1.0
   */
+class ArrayTest {}
+
 object ArrayTest {
 
     def main(args: Array[String]) {
@@ -27,17 +29,33 @@ object ArrayTest {
 
         for (i <- c if i % 2 == 0) print(i + " ")
         // 每个集合都有map和foreach函数，map返回对象，foreach返回unit，只用于遍历
-        c.foreach(i=> print(i + " "))
+        c.foreach(i => print(i + " "))
         // _ 为占位符
-        c.filter(_ % 2 == 0).map(_+1)
+        c.filter(_ % 2 == 0).map(_ + 1)
 
-        val d = c.mkString("[",",","]")
+        val d = c.mkString("[", ",", "]")
         print(d)
 
         // 多维数组声明
-        val e = Array.ofDim[Int](2,2)
+        val e = Array.ofDim[Int](2, 2)
         val f = new Array[Array[Int]](2)
         f(0) = new Array[Int](2)
         f(1) = new Array[Int](2)
+
+        // 数组合并
+        var arr1 = Array(1, 2, 3)
+        var arr2 = Array(2, 3, 4)
+
+        var arr3 = Array.concat(arr1, arr2)
+
+        println(arr3)
+
+        // 创建区间数组
+        val arr4 = Range(1, 10)
+        val arr5 = Range(1, 20, 5) // 5是步长
+        for(i <- arr5){
+            print(i + " ")
+        }
+
     }
 }
