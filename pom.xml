@@ -11,7 +11,6 @@
     <modules>
         <module>haro-hadoop</module>
         <module>haro-hbase</module>
-        <module>haro-scala</module>
     </modules>
     <properties>
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
